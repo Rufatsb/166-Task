@@ -1,0 +1,14 @@
+@import"layout/all";
+@import "core/all";
+// @import "sections/all";
+@import "mediaqueries/all";
+@import "components/all";
+.float-right {
+    float: right !important;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

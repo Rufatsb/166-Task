@@ -1,0 +1,105 @@
+header {
+    background: #FFFFFF;
+    margin-bottom: 100px !important;
+    .container-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+        .col-header {
+            .col-header-wrapper {
+                width: 100%;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                background: #FFFFFF;
+                justify-content: center;
+                position: static;
+                top: 0;
+                left: 0;
+                margin-bottom: 84px;
+                border-bottom: 1px solid #ededed
+            }
+        }
+    }
+    ul {
+        // display: flex;
+        // align-items: center;
+        // li {
+        //     margin-left: 1.5rem;
+        // }
+    }
+    .navbar-left {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    .navbar-center {
+        margin-left: 28px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        .search-icon {
+            width: 50px;
+            height: 50px;
+            background: #EBECEF;
+            border: none;
+            border-radius: 45px;
+            margin: 0 0 auto;
+            left: -3rem;
+        }
+    }
+    .navbar-right {
+        margin-left: 50px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        height: 100px;
+        .shopping-bag-div {
+            display: flex;
+            height: 100px;
+            align-items: center;
+            padding-right: 13px;
+        }
+        .profile-div {
+            display: flex;
+            height: 100%;
+            align-items: center;
+            padding: 0 17px;
+            justify-content: center;
+        }
+        .shopping-bag {}
+        .shopping-circle {
+            left: 0.8rem;
+            top: -0.8rem;
+        }
+        .shopping-count {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 11px;
+            line-height: 13px;
+            color: #ffffff;
+            top: -0.79rem;
+            left: 0;
+        }
+        .shopping-price {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            color: #343F56;
+        }
+        .shopping-heart {
+            display: flex;
+            height: 100%;
+            align-items: center;
+            padding: 0 17px;
+            justify-content: center;
+            border-bottom: 3px solid transparent;
+        }
+        .profile-icon {}
+    }
+}

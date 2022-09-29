@@ -1,0 +1,19 @@
+@media only screen and (min-width: 1440px) {
+    .main-search-btn {
+        width: 681px !important;
+    }
+    .navbar-right {
+        margin-left: 36px;
+    }
+    .col-header-wrapper>.navbar-left a {
+        margin-right: 56px !important;
+    }
+    @media screen and (min-width: 992px) {
+        .col-header {
+            height: 100px;
+        }
+    }
+    .catalog-btn {
+        margin-right: 66px !important;
+    }
+}
